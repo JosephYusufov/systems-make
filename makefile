@@ -8,3 +8,10 @@ main.o: main.c functions.h
 
 functions.o: functions.c
 	gcc -c functions.c
+
+run: 
+	./program
+
+clean:
+	rm *.o
+	rm *~
